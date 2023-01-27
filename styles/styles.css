@@ -11,6 +11,7 @@ body{
     margin: 0% 5%;
 }
 
+/*Header - banner*/
 .portada {
     width:auto;
     height: 200px;
@@ -32,6 +33,7 @@ h1 {
     text-align: center;
 }
 #logo {
+    width: 180px;
     position: absolute;
     top: 21%;
     right: 10%;
@@ -49,8 +51,6 @@ nav {
     /* border: 2px solid black; */
     position: absolute;
     top: 322px;
-    
-
 }
 .current {
     text-decoration: none;
@@ -62,7 +62,6 @@ nav {
     background-color: white;
     max-width: 800px;
     display: inline-block;
-    /* border: 2px solid green; */
     position: absolute;
     top: 322px;
     left: 250px;
