@@ -6,7 +6,7 @@
 }
 
 /*Body*/
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0% 5%;
 }
@@ -19,19 +19,23 @@ body{
     background-size: cover;
     background-position: 0% 30%;
 }
+
 h1 {
     font-size: 400%;
     margin-left: 2%;
 }
+
 .sub {
     color: white;
     background-color: black;
     padding: 10px;
     text-align: center;
 }
+
 #logo {
     width: 120px;
 }
+
 #chapa {
     width: fit-content;
     border: 4px solid black;
@@ -43,22 +47,24 @@ h1 {
 }
 
 /*Navbar*/
-nav a{
+nav a {
     display: block;
     margin: 0px 30px 50px 30px;
 }
-nav {
+
+/* nav {
     background-color: white;
     position: absolute;
     top: 50%;
-}
+} */
+
 .current {
     text-decoration: none;
     color: black;
 }
 
 /*Main*/
-.info-main {
+/* .info-main {
     margin-right: 5%;
     background-color: white;
     width: fit-content;
@@ -66,86 +72,116 @@ nav {
     position: absolute;
     top: 50%;
     left: 18%;
-}
-.info-main h2, h3 {
+}*/
+
+.home-flex h2, h3, .about-flex h2, h3, .contact-flex h2, h3{
     margin-bottom: 5px;
 }
-.info-main p{
+.home-flex p, .about-flex p, .contact-flex p{
     margin-bottom: 20px;
 }
 
 /*Images*/
-#hockey-1, #hockey-2, #hockey-3{
-    position: absolute;
-    top: 95%;
+#hockey-1,
+#hockey-2,
+#hockey-3 {
+    border: 2px solid red;
 }
-#hockey-1 img, #hockey-2 img, #hockey-3 img{
+
+#hockey-1 img,
+#hockey-2 img,
+#hockey-3 img {
     width: 300px;
 }
-/*Rules flex box */
-.rules-main{
+
+/*Flex box */
+.rules-main,
+.home-main,
+.about-main,
+.contact-main {
     height: 200vh;
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: center;
     align-content: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-#rules-nav {
-    position: static;
+
+.rules-nav,
+.home-nav,
+.about-nav,
+.contact-nav {
     background-color: aqua;
     margin-right: 50px;
     margin-top: 50px;
 
 }
-.rules-flex{
+
+.rules-flex,
+.home-flex,
+.about-flex,
+.contact-flex {
     width: 800px;
     background-color: gray;
-    margin-top: 50px;
-    
 }
-#rules-title{
+
+/*Titulos rules list*/
+#rules-title {
     background-color: darkgray;
     padding: 15px;
 }
-#rules-title h2{
+
+#rules-title h2 {
     margin-bottom: 15px;
 }
-#rules-title h3{
+
+#rules-title h3 {
     font-style: italic;
 }
 
 /*Lists*/
-.rules-list{
-list-style: none inside;
-padding: 20px;
+.rules-list {
+    list-style: none inside;
+    padding: 20px;
 }
-.letters{
+
+.letters {
     list-style: lower-alpha inside;
 }
-.numbers{
+
+.numbers {
     list-style-position: inside;
 }
-.hole{
+
+.hole {
     list-style: circle inside;
 }
-.no-hole{
+
+.no-hole {
     list-style: none;
 }
-li, dd{
+
+li,
+dd {
     line-height: 1.3em;
-    margin : 15px 0px;
+    margin: 15px 0px;
 }
-.letters, .hole{
+
+.letters,
+.hole {
     margin-left: 10px;
 }
 
 /* Game Info Table*/
-table, thead, tbody, tfoot  {
+table,
+thead,
+tbody,
+tfoot {
     border: 1px solid red;
     margin: 5px;
 }
-.table-foot-title{
+
+.table-foot-title {
     font-weight: bold;
 }
