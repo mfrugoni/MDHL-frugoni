@@ -82,3 +82,70 @@ nav {
 #hockey-1 img, #hockey-2 img, #hockey-3 img{
     width: 300px;
 }
+/*Rules flex box */
+.rules-main{
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#rules-nav {
+    position: static;
+    background-color: aqua;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+.rules-flex{
+    width: 800px;
+    background-color: gray;
+    margin-top: 50px;
+    
+}
+#rules-title{
+    background-color: darkgray;
+    padding: 15px;
+}
+#rules-title h2{
+    margin-bottom: 15px;
+}
+#rules-title h3{
+    font-style: italic;
+}
+
+/*Lists*/
+.rules-list{
+list-style: none inside;
+padding: 20px;
+}
+.letters{
+    list-style: lower-alpha inside;
+}
+.numbers{
+    list-style-position: inside;
+}
+.hole{
+    list-style: circle inside;
+}
+.no-hole{
+    list-style: none;
+}
+li, dd{
+    line-height: 1.3em;
+    margin : 15px 0px;
+}
+.letters, .hole{
+    margin-left: 10px;
+}
+
+/* Game Info Table*/
+table, thead, tbody, tfoot  {
+    border: 1px solid red;
+    margin: 5px;
+}
+.table-foot-title{
+    font-weight: bold;
+}
