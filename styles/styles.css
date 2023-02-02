@@ -73,3 +73,12 @@ nav {
 .info-main p{
     margin-bottom: 20px;
 }
+
+/*Images*/
+#hockey-1, #hockey-2, #hockey-3{
+    position: absolute;
+    top: 95%;
+}
+#hockey-1 img, #hockey-2 img, #hockey-3 img{
+    width: 300px;
+}
