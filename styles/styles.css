@@ -8,12 +8,17 @@
 /*Body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0% 5%;
+    margin: 0% 3%;
+    background-color: #f5d544;
 }
 
 /*Header - banner*/
+header{
+    position: sticky;
+    top: 0;
+}
 .portada {
-    height: 200px;
+    height: 180px;
     background-image: url("../img/design1_image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,18 +53,26 @@ h1 {
 
 /*Navbar*/
 nav a {
-    margin: 0px 30px 50px 30px;
+    margin: 0px 30px 0px 30px;
+    color: white;
+    text-decoration: none;
 }
 
-/* nav {
-    background-color: white;
-    position: absolute;
-    top: 50%;
-} */
+nav {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
 
 .current {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .home-flex h2,
@@ -81,7 +94,8 @@ h3 {
 #hockey-1,
 #hockey-2,
 #hockey-3 {
-    border: 2px solid red;
+    border: 6px solid #260600;
+    background-color: #260600;
 }
 
 #hockey-1 img,
@@ -95,22 +109,15 @@ h3 {
 .home-main,
 .about-main,
 .contact-main {
-    /* height: 100vh; */
+    /* height: 200vh; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    align-content: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.rules-nav,
-.home-nav,
-.about-nav,
-.contact-nav {
-    background-color: aqua;
-    margin-right: 50px;
-    margin-top: 0px;
+    align-items: center;
+    align-content: space-around;
 }
 
 .rules-flex,
@@ -118,13 +125,19 @@ h3 {
 .about-flex,
 .contact-flex {
     width: 800px;
-    background-color: gray;
+    color: #260600;
+    background-color: #5198f5;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /*Titulos rules list*/
 #rules-title {
-    background-color: darkgray;
+    color: #f5d544;
+    background-color: #260600;
     padding: 15px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #rules-title h2 {
@@ -175,4 +188,8 @@ tfoot {
 
 .table-foot-title {
     font-weight: bold;
+}
+
+footer{
+    text-align: center;
 }
