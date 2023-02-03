@@ -13,10 +13,11 @@ body {
 }
 
 /*Header - banner*/
-header{
+header {
     position: sticky;
     top: 0;
 }
+
 .portada {
     height: 180px;
     background-image: url("../img/design1_image1.jpg");
@@ -26,15 +27,11 @@ header{
 }
 
 h1 {
-    font-size: 400%;
-    margin-left: 2%;
-}
-
-.sub {
-    color: white;
-    background-color: black;
-    padding: 10px;
-    text-align: center;
+    font-size: 2em;
+    color: #f5d544;
+    background-color: #f51f06;
+    padding: 10px 10px 10px 20px;
+    opacity: 0.8;
 }
 
 #logo {
@@ -43,7 +40,7 @@ h1 {
 
 #chapa {
     width: fit-content;
-    border: 4px solid black;
+    border: 4px solid #f51f06;
     border-radius: 5%;
     background-color: #eee;
     position: absolute;
@@ -53,26 +50,31 @@ h1 {
 
 /*Navbar*/
 nav a {
-    margin: 0px 30px 0px 30px;
-    color: white;
+    color: #f51f06;
     text-decoration: none;
+    padding: 5px;
 }
 
-nav {
-    background-color: black;
-    text-align: center;
+.flex-nav{
+    background-color: #260600;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 2px solid white;
+    border-top: 4px solid #f51f06;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-} 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
 
 .current {
     text-decoration: none;
-    color: white;
+    color: #f5d544;
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .home-flex h2,
@@ -94,7 +96,7 @@ h3 {
 #hockey-1,
 #hockey-2,
 #hockey-3 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     border: 6px solid #260600;
     background-color: #260600;
@@ -130,19 +132,20 @@ h3 {
     background-color: #5198f5;
     padding: 20px;
     border-radius: 5px;
-    margin-top: 50px;
+    border: 3px solid #260600;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.contact-flex{
+.contact-flex {
     width: fit-content;
     font-weight: bold;
 }
 
 /*Titulos rules list*/
 #rules-title {
-    color: #f5d544;
-    background-color: #260600;
+    color: #260600;
+    background-color: #f51f06;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -186,59 +189,64 @@ dd {
 }
 
 /* Game Info Table*/
-table{
+table {
     background-color: #260600;
     padding: 10px;
     border-radius: 5px;
 }
 
-caption{
+caption {
     padding: 5px;
     font-size: 1.3em;
     font-style: italic;
 }
 
-th, td{
+th,
+td {
     padding: 5px;
 }
 
-.top{
+.top {
     font-size: 1.5em;
 }
 
-.heading, thead tr, tfoot tr{
+.heading,
+thead tr,
+tfoot tr {
     background-color: #f51f06;
 }
 
-.yellow{
+.yellow {
     background-color: #f5d544;
     text-align: center;
 }
 
-.blue{
+.blue {
     background-color: #5198f5;
     text-align: center;
 }
 
-.info-contact{
+.info-contact {
     color: #260600;
     font-size: 1.2em;
 }
 
-.info-contact p{
+.info-contact p {
     margin: 10px;
 }
 
 .table-foot-title {
     font-weight: bold;
 }
+
 /*Footer*/
-footer{
+footer {
     text-align: center;
     border-top: 3px dotted #260600;
     color: #260600;
     margin-top: 20px;
 }
-footer p{
+
+footer p {
     padding: 8px;
 }
