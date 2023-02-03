@@ -94,6 +94,8 @@ h3 {
 #hockey-1,
 #hockey-2,
 #hockey-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: 6px solid #260600;
     background-color: #260600;
 }
@@ -109,7 +111,6 @@ h3 {
 .home-main,
 .about-main,
 .contact-main {
-    /* height: 200vh; */
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -129,6 +130,13 @@ h3 {
     background-color: #5198f5;
     padding: 20px;
     border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-flex{
+    width: fit-content;
+    font-weight: bold;
 }
 
 /*Titulos rules list*/
@@ -178,18 +186,59 @@ dd {
 }
 
 /* Game Info Table*/
-table,
-thead,
-tbody,
-tfoot {
-    border: 1px solid red;
-    margin: 5px;
+table{
+    background-color: #260600;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+caption{
+    padding: 5px;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+th, td{
+    padding: 5px;
+}
+
+.top{
+    font-size: 1.5em;
+}
+
+.heading, thead tr, tfoot tr{
+    background-color: #f51f06;
+}
+
+.yellow{
+    background-color: #f5d544;
+    text-align: center;
+}
+
+.blue{
+    background-color: #5198f5;
+    text-align: center;
+}
+
+.info-contact{
+    color: #260600;
+    font-size: 1.2em;
+}
+
+.info-contact p{
+    margin: 10px;
 }
 
 .table-foot-title {
     font-weight: bold;
 }
-
+/*Footer*/
 footer{
     text-align: center;
+    border-top: 3px dotted #260600;
+    color: #260600;
+    margin-top: 20px;
+}
+footer p{
+    padding: 8px;
 }
