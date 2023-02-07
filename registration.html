@@ -33,67 +33,67 @@
         <h2>Registration Form</h2>
 
         <form action="./show_data.html" method="get">
-            <div>
-                <label for="fname">Player's First Name: </label>
-                <input type="text" name="first-name" id="fname">
-                <label for="lname">Last name: </label>
-                <input type="text" name="last-name" id="lname">
-            </div>
+            <fieldset>
+                <div>
+                    <label for="fname">Player's First Name: </label>
+                    <input type="text" name="first-name" id="fname">
+                    <label for="lname">Last name: </label>
+                    <input type="text" name="last-name" id="lname">
+                </div>
 
-            <div>
-                <label for="adress">Street Adress: </label>
-                <input type="text" name="adress" id="adress">
-            </div>
+                <div>
+                    <label for="adress">Street Adress: </label>
+                    <input type="text" name="adress" id="adress" size="50">
+                </div>
 
-            <div>
-                <label for="city">City: </label>
-                <input type="text" name="city" id="city">
+                <div>
+                    <label for="city">City: </label>
+                    <input type="text" name="city" id="city">
 
-                <label for="zip">Zip Code</label>
-                <input type="text" name="zip-code" id="zip">
-            </div>
+                    <label for="zip">Zip Code: </label>
+                    <input type="text" name="zip-code" id="zip">
+                </div>
 
-            <div>
-                <label for="birth">Birth Date (mm/dd/yyyy): </label>
-                <input type="date" name="birth-date" id="birth">
-                <legend>Gender:</legend>
-                <label for="female">Female: </label>
-                <input type="radio" name="gender" id="female" value="female">
-                <label for="male">Male: </label>
-                <input type="radio" name="gender" id="male" value="male">
-                <label for="other">Other: </label>
-                <input type="radio" name="gender" id="other" value="other">
-            </div>
-            <div>
-                <label for="grade">Grade: </label>
-                <input type="radio" name="grade" id="pre-school" value="pre-school">
-                <label for="pre-school">Pre-School: </label>
-                <input type="radio" name="grade" id="first" value="first">
-                <label for="first">1st </label>
-                <input type="radio" name="grade" id="second" value="second">
-                <label for="second">2nd </label>
-                <input type="radio" name="grade" id="third" value="third">
-                <label for="third">3rd </label>
-                <input type="radio" name="grade" id="fourth" value="fourth">
-                <label for="fourth">4th </label>
-                <input type="radio" name="grade" id="fifth" value="fifth">
-                <label for="fifth">5th </label>
-            </div>
+                <div>
+                    <label for="birth">Birth Date (mm/dd/yyyy): </label>
+                    <input type="date" name="birth-date" id="birth">
+                    <label for="gender">Gender: </label>
+                    <label for="female">Female: </label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="male">Male: </label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="other">Other: </label>
+                    <input type="radio" name="gender" id="other" value="other">
+                </div>
+                <div>
+                    <label for="grade">Grade: </label>
+                    <input type="radio" name="grade" id="pre-school" value="pre-school">
+                    <label for="pre-school">Pre-School: </label>
+                    <input type="radio" name="grade" id="first" value="first">
+                    <label for="first">1st </label>
+                    <input type="radio" name="grade" id="second" value="second">
+                    <label for="second">2nd </label>
+                    <input type="radio" name="grade" id="third" value="third">
+                    <label for="third">3rd </label>
+                    <input type="radio" name="grade" id="fourth" value="fourth">
+                    <label for="fourth">4th </label>
+                    <input type="radio" name="grade" id="fifth" value="fifth">
+                    <label for="fifth">5th </label>
+                </div>
+            </fieldset>
+
             <div>
                 <h4>Wich elementary school do you live near?</h4>
-                <h4>Closest school:</h4>
-                <input type="radio" name="school" value="AJ Katzenmaier" id="school1">
-                <label for="school1">AJ Katzenmaier</label>
-                <input type="radio" name="school" value="Greenbay" id="school2">
-                <label for="school2">Greenbay</label>
-                <input type="radio" name="school" value="Howard A Yeager" id="school3">
-                <label for="school3">Howard A Yeager</label>
-                <input type="radio" name="school" value="Marjorie P Hart" id="school4">
-                <label for="school4">Marjorie P Hart</label>
-                <input type="radio" name="school" value="North Elementary" id="school5">
-                <label for="school5">North Elementary</label>
-                <input type="radio" name="school" value="South Elementary" id="school6">
-                <label for="school6">South Elementary</label>
+                <label for="school">Closest School: </label>
+                <select name="school" id="school">
+                    <option>--Select a school--</option>
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
             </div>
             <div>
                 <h4>What position(s) do you normally play? (check all that apply)</h4>
@@ -124,10 +124,18 @@
                 <label for="y-sm">Extra Large</label>
             </div>
             <div>
-                <h4>Permisiion to Play</h4>
+                <h4>Permission to Play</h4>
                 <p>
-                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, wich transportation.
-                    By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                    injury associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees and associated personel and volunteers, including the facilities used for practices and
+                    games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation in the program and/or being transported to or from MDHL sponsored activities, wich
+                    transportation.
+                    By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I
+                    also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
                 <label for="parent-guardian">Parent/Guardian Signature: </label>
                 <input type="text" id="parent-guardian" name="parent-guardian">
@@ -138,14 +146,15 @@
             <div>
                 <button type="submit">Submit</button>
             </div>
-
-
+            <div>
+                <button type="reset">Reset</button>
+            </div>
 
         </form>
     </main>
 
     <footer>
-        <p>Made in Argentina by Miguel Frugoni . MMXXII</p>
+        <p>Made in Argentina by Miguel Frugoni . MMXXIII</p>
         <p>All brands and trademarks in this web site are property of their respective owners.</p>
     </footer>
 
