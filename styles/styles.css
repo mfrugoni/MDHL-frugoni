@@ -7,6 +7,7 @@
 
 /*Body*/
 body {
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0% 3%;
     background-color: #f5d544;
@@ -19,7 +20,7 @@ header {
 }
 
 .portada {
-    height: 180px;
+    height: 130px;
     background-image: url("../img/design1_image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +31,13 @@ h1 {
     font-size: 2em;
     color: #f5d544;
     background-color: #f51f06;
-    padding: 10px 10px 10px 20px;
+    padding: 5px 10px 5px 20px;
+    opacity: 0.8;
+}
+
+.portada h2{
+    padding-left: 30px;
+    color: #f51f06;
     opacity: 0.8;
 }
 
@@ -44,8 +51,9 @@ h1 {
     border-radius: 5%;
     background-color: #eee;
     position: absolute;
-    top: 25%;
-    right: 12%;
+    top: 15%;
+    right: 1%;
+    z-index: 1;
 }
 
 /*Navbar*/
@@ -57,8 +65,9 @@ nav a {
 
 .flex-nav{
     background-color: #260600;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
     border-top: 4px solid #f51f06;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -109,11 +118,12 @@ h3 {
 }
 
 /*Flex box */
+.info-main,
 .rules-main,
 .home-main,
 .about-main,
 .contact-main {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -123,6 +133,7 @@ h3 {
     align-content: space-around;
 }
 
+.info-flex,
 .rules-flex,
 .home-flex,
 .about-flex,
@@ -131,7 +142,7 @@ h3 {
     color: #260600;
     background-color: #5198f5;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 3px solid #260600;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -140,6 +151,17 @@ h3 {
 .contact-flex {
     width: fit-content;
     font-weight: bold;
+}
+
+.rules-flex{
+    width: 900px;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.info-flex{
+    margin-top: 0;
+    width: 900px;
 }
 
 /*Titulos rules list*/
