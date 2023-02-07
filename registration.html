@@ -29,11 +29,13 @@
             <a href="#" class="current">Registration</a>
         </nav>
     </header>
-    <main>
-        <h2>Registration Form</h2>
-
-        <form action="./show_data.html" method="get">
-            <fieldset>
+    <main class="regis-main">
+        
+        <form class="regis-flex" action="./show_data.html" method="get">
+            <div id="regis-title">
+                <h2>Registration Form</h2>
+            </div>
+            <fieldset id="names">
                 <div>
                     <label for="fname">Player's First Name: </label>
                     <input type="text" name="first-name" id="fname" required>
@@ -48,15 +50,16 @@
 
                 <div>
                     <label for="city">City: </label>
-                    <input type="text" name="city" id="city" required>
+                    <input type="text" name="city" id="city" size="40" required>
 
                     <label for="zip">Zip Code: </label>
-                    <input type="text" name="zip-code" id="zip" required>
+                    <input type="text" name="zip-code" id="zip" size="8" required>
                 </div>
 
                 <fieldset>
-                    <label for="birth">Birth Date (mm/dd/yyyy): </label>
+                    <legend>Birth Date</legend>
                     <input type="date" name="birth-date" id="birth" required>
+                    <label for="birth">mm/dd/yyyy</label>
                 </fieldset>
 
                 <fieldset>
@@ -91,7 +94,7 @@
                 <legend>Wich elementary school do you live near?</legend>
                 <label for="school">Closest School: </label>
                 <select name="school" id="school" required>
-                    <option value="" selected disabled>-- Select a school --</option>
+                    <option value="" selected disabled>-- Choose school --</option>
                     <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                     <option value="Greenbay">Greenbay</option>
                     <option value="Howard A Yeager">Howard A Yeager</option>
@@ -131,7 +134,7 @@
                 <label for="y-sm">Extra Large</label>
             </fieldset>
 
-            <div>
+            <div class="sign">
                 <h4>Permission to Play</h4>
                 <p>
                     I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
@@ -147,21 +150,24 @@
                 </p>
                 <fieldset>
                     <legend>Signature</legend>
-                    <label for="parent-guardian">Parent/Guardian Signature: </label>
-                    <input type="text" id="parent-guardian" name="parent-guardian" required>
-                    <label for="sign-date">Date: </label>
-                    <input type="date" name="signature-date" id="sign-date" required>
+                    <div>
+                        <label for="parent-guardian">Parent/Guardian Signature: </label>
+                        <input type="text" id="parent-guardian" name="parent-guardian" size="40" required>
+                    </div>
+                    <div>
+                        <label for="sign-date">Date: </label>
+                        <input type="date" name="signature-date" id="sign-date" required>
+                    </div>
                 </fieldset>
             </div>
-            <div>
+            
+            <div class="form-button">
                 <button type="submit">Submit</button>
-            </div>
-            <div>
                 <button type="reset">Reset</button>
             </div>
 
         </form>
-        
+
     </main>
 
     <footer>

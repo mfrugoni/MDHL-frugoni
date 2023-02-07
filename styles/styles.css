@@ -113,6 +113,7 @@ nav a {
 }
 
 /*Flex box */
+.regis-main,
 .info-main,
 .rules-main,
 .home-main,
@@ -128,6 +129,7 @@ nav a {
     align-content: space-around;
 }
 
+.regis-flex,
 .info-flex,
 .rules-flex,
 .home-flex,
@@ -160,7 +162,9 @@ nav a {
 }
 
 /*Titulos rules list*/
+#regis-title,
 #rules-title {
+    border: 2px solid #260600;
     color: #260600;
     background-color: #f51f06;
     padding: 15px;
@@ -262,12 +266,50 @@ form div{
     margin: 15px;
 }
 fieldset{
-    padding: 5px;
+    border: 3px solid #260600;
+    border-radius: 5px;
+    padding: 15px 10px;
     margin: 15px;
 }
 
+#names{
+    padding: 5px;
+}
+
+input{
+    border-radius: 8px;
+    padding: 5px;
+    font-weight:bold;
+}
+
 label{
+    padding: 5px;
+    color: #260600;
+    font-weight:bold;
+}
+
+legend{
+    background-color: #260600;
+    color: #f51f06;
     font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.sign p{
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.form-button>button{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 3px solid #260600;
+    border-radius: 5px;
+    background-color: #f51f06;
+    color: #260600;
 }
 
 /*Footer*/
