@@ -261,6 +261,10 @@ form div{
     padding: 5px;
     margin: 15px;
 }
+fieldset{
+    padding: 5px;
+    margin: 15px;
+}
 
 label{
     font-weight: bold;
