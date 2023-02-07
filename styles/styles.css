@@ -8,7 +8,7 @@
 /*Body*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0% 3%;
+    margin: 0% 1%;
     background-color: #f5d544;
 }
 
@@ -150,7 +150,7 @@ nav a {
     font-weight: bold;
 }
 
-.rules-flex{
+/* .rules-flex{
     width: 900px;
     padding: 10px;
     margin-top: 0;
@@ -159,9 +159,9 @@ nav a {
 .info-flex{
     margin-top: 0;
     width: 900px;
-}
+} */
 
-/*Titulos rules list*/
+/*Titulos rules list y regist form*/
 #regis-title,
 #rules-title {
     border: 2px solid #260600;
@@ -258,6 +258,42 @@ tfoot tr {
 
 .table-foot-title {
     font-weight: bold;
+}
+
+/*Game info maps*/
+#maps-title{
+    text-align: center;
+    background-color: #f51f06;
+    color: #260600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.map-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+
+#green,
+#aj,
+#marge,
+#howard,
+#north,
+#south{
+    border: 3px solid #260600;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5198f5;
+    color: #260600;
+    width:fit-content;
+    height:fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*Registration Form*/
