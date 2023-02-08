@@ -30,30 +30,39 @@
         </nav>
     </header>
     <main class="regis-main">
-        
+
         <form class="regis-flex" action="./show_data.html" method="get">
             <div id="regis-title">
                 <h2>Registration Form</h2>
             </div>
-            <fieldset id="names">
-                <div>
-                    <label for="fname">Player's First Name: </label>
-                    <input type="text" name="first-name" id="fname" required>
-                    <label for="lname">Last name: </label>
-                    <input type="text" name="last-name" id="lname" required>
+            <fieldset class="names">
+                <div class="names1">
+                    <div>
+                        <label for="fname">Player's First Name: </label>
+                        <input type="text" name="first-name" id="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name: </label>
+                        <input type="text" name="last-name" id="lname" required>
+                    </div>
                 </div>
 
-                <div>
-                    <label for="adress">Street Adress: </label>
-                    <input type="text" name="adress" id="adress" size="50" required>
+                <div class="names1">
+                    <div>
+                        <label for="adress">Street Adress: </label>
+                        <input type="text" name="adress" id="adress" size="30" required>
+                    </div>
                 </div>
 
-                <div>
-                    <label for="city">City: </label>
-                    <input type="text" name="city" id="city" size="40" required>
-
-                    <label for="zip">Zip Code: </label>
-                    <input type="text" name="zip-code" id="zip" size="8" required>
+                <div class="names1">
+                    <div>
+                        <label for="city">City: </label>
+                        <input type="text" name="city" id="city" size="40" required>
+                    </div>
+                    <div>
+                        <label for="zip">Zip Code: </label>
+                        <input type="text" name="zip-code" id="zip" size="8" required>
+                    </div>
                 </div>
 
                 <fieldset>
@@ -64,28 +73,50 @@
 
                 <fieldset>
                     <legend>Gender </legend>
-                    <label for="female">Female: </label>
-                    <input type="radio" name="gender" id="female" value="female" required>
-                    <label for="male">Male: </label>
-                    <input type="radio" name="gender" id="male" value="male" required>
-                    <label for="other">Other: </label>
-                    <input type="radio" name="gender" id="other" value="other" required>
+                    <div class="names1">
+                        <div>
+                            <label for="female">Female: </label>
+                            <input type="radio" name="gender" id="female" value="female" required>
+                        </div>
+                        <div>
+                            <label for="male">Male: </label>
+                            <input type="radio" name="gender" id="male" value="male" required>
+                        </div>
+                        <div>
+                            <label for="other">Other: </label>
+                            <input type="radio" name="gender" id="other" value="other" required>
+                        </div>
+                    </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>Grade </legend>
-                    <input type="radio" name="grade" id="pre-school" value="pre-school" required>
-                    <label for="pre-school">Pre-School: </label>
-                    <input type="radio" name="grade" id="first" value="first" required>
-                    <label for="first">1st </label>
-                    <input type="radio" name="grade" id="second" value="second" required>
-                    <label for="second">2nd </label>
-                    <input type="radio" name="grade" id="third" value="third" required>
-                    <label for="third">3rd </label>
-                    <input type="radio" name="grade" id="fourth" value="fourth" required>
-                    <label for="fourth">4th </label>
-                    <input type="radio" name="grade" id="fifth" value="fifth" required>
-                    <label for="fifth">5th </label>
+                    <div class="names1">
+                        <div>
+                            <input type="radio" name="grade" id="pre-school" value="pre-school" required>
+                            <label for="pre-school">Pre-School </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="grade" id="first" value="first" required>
+                            <label for="first">1st </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="grade" id="second" value="second" required>
+                            <label for="second">2nd </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="grade" id="third" value="third" required>
+                            <label for="third">3rd </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="grade" id="fourth" value="fourth" required>
+                            <label for="fourth">4th </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="grade" id="fifth" value="fifth" required>
+                            <label for="fifth">5th </label>
+                        </div>
+                    </div>
                 </fieldset>
 
             </fieldset>
@@ -106,32 +137,58 @@
 
             <fieldset>
                 <legend>What position(s) do you normally play? (check all that apply)</legend>
-                <input type="checkbox" name="position" id="forward" value="forward">
-                <label for="forward">Forward</label>
-                <input type="checkbox" name="position" id="defense" value="defense">
-                <label for="defense">Defense</label>
-                <input type="checkbox" name="position" id="midfield" value="midfield">
-                <label for="midfield">Midfield</label>
-                <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
-                <label for="goalkeeper">GoalKeeper</label>
+                <div class="names1">
+                    <div>
+                        <input type="checkbox" name="position" id="forward" value="forward">
+                        <label for="forward">Forward</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="defense" value="defense">
+                        <label for="defense">Defense</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="midfield" value="midfield">
+                        <label for="midfield">Midfield</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
+                        <label for="goalkeeper">GoalKeeper</label>
+                    </div>
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Uniform size</legend>
-                <input type="radio" name="uniform" id="y-sm" value="youth-small" required>
-                <label for="y-sm">Youth Small</label>
-                <input type="radio" name="uniform" id="y-m" value="youth-medium" required>
-                <label for="y-sm">Youth Medium</label>
-                <input type="radio" name="uniform" id="y-lg" value="youth-large" required>
-                <label for="y-sm">Youth Large</label>
-                <input type="radio" name="uniform" id="sm" value="small" required>
-                <label for="y-sm">Small</label>
-                <input type="radio" name="uniform" id="m" value="mediuml" required>
-                <label for="y-sm">Medium</label>
-                <input type="radio" name="uniform" id="lg" value="large" required>
-                <label for="y-sm">Large</label>
-                <input type="radio" name="uniform" id="x-lg" value="extra-large" required>
-                <label for="y-sm">Extra Large</label>
+                <div class="names1">
+                    <div>
+                        <input type="radio" name="uniform" id="y-sm" value="youth-small" required>
+                        <label for="y-sm">Youth Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="y-m" value="youth-medium" required>
+                        <label for="y-sm">Youth Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="y-lg" value="youth-large" required>
+                        <label for="y-sm">Youth Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="sm" value="small" required>
+                        <label for="y-sm">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="m" value="mediuml" required>
+                        <label for="y-sm">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="lg" value="large" required>
+                        <label for="y-sm">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="uniform" id="x-lg" value="extra-large" required>
+                        <label for="y-sm">Extra Large</label>
+                    </div>
+                </div>
             </fieldset>
 
             <div class="sign">
@@ -150,17 +207,19 @@
                 </p>
                 <fieldset>
                     <legend>Signature</legend>
-                    <div>
-                        <label for="parent-guardian">Parent/Guardian Signature: </label>
-                        <input type="text" id="parent-guardian" name="parent-guardian" size="40" required>
-                    </div>
-                    <div>
-                        <label for="sign-date">Date: </label>
-                        <input type="date" name="signature-date" id="sign-date" required>
+                    <div class="names">
+                        <div>
+                            <label for="parent-guardian">Parent/Guardian Signature: </label>
+                            <input type="text" id="parent-guardian" name="parent-guardian" size="40" required>
+                        </div>
+                        <div>
+                            <label for="sign-date">Date: </label>
+                            <input type="date" name="signature-date" id="sign-date" required>
+                        </div>
                     </div>
                 </fieldset>
             </div>
-            
+
             <div class="form-button">
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>

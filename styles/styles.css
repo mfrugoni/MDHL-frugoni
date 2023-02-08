@@ -34,7 +34,7 @@ h1 {
     opacity: 0.8;
 }
 
-.portada h2{
+.portada h2 {
     padding-left: 30px;
     color: #f51f06;
     opacity: 0.8;
@@ -62,7 +62,7 @@ nav a {
     padding: 5px;
 }
 
-.flex-nav{
+.flex-nav {
     background-color: #260600;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -86,7 +86,7 @@ nav a {
 }
 
 .home-flex h3,
-.about-flex h2{
+.about-flex h2 {
     margin-bottom: 5px;
 }
 
@@ -261,7 +261,7 @@ tfoot tr {
 }
 
 /*Game info maps*/
-#maps-title{
+#maps-title {
     text-align: center;
     background-color: #f51f06;
     color: #260600;
@@ -270,13 +270,12 @@ tfoot tr {
     margin-bottom: 20px;
 }
 
-.map-container{
+.map-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-
 }
 
 #green,
@@ -284,60 +283,75 @@ tfoot tr {
 #marge,
 #howard,
 #north,
-#south{
+#south {
     border: 3px solid #260600;
     border-radius: 10px;
     padding: 20px;
     background-color: #5198f5;
     color: #260600;
-    width:fit-content;
-    height:fit-content;
+    width: fit-content;
+    height: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 /*Registration Form*/
-form div{
-    padding: 5px;
-    margin: 15px;
-}
-fieldset{
-    border: 3px solid #260600;
+fieldset {
+    border: 3px solid #f51f06;
     border-radius: 5px;
     padding: 15px 10px;
     margin: 15px;
 }
 
-#names{
-    padding: 5px;
+.names {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 
-input{
+.names1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.names1>div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.names>div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
     border-radius: 8px;
     padding: 5px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-label{
+label {
     padding: 5px;
     color: #260600;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-legend{
-    background-color: #260600;
-    color: #f51f06;
+legend {
+    background-color: #f51f06;
+    color: #260600;
     font-weight: bold;
     padding: 5px 15px;
     border-radius: 5px;
 }
 
-.sign p{
+.sign p {
     line-height: 1.5em;
     margin-top: 10px;
 }
 
-.form-button>button{
+.form-button>button {
     font-size: 1.3em;
     font-weight: bold;
     margin: 10px;
