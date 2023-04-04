@@ -1,0 +1,375 @@
+/*Reset rules*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 1%;
+    background-color: #f5d544;
+}
+
+/*Header - banner*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+.portada {
+    height: 130px;
+    background-image: url("../img/design1_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+}
+
+h1 {
+    font-size: 2em;
+    color: #f5d544;
+    background-color: #f51f06;
+    padding: 5px 10px 5px 20px;
+    opacity: 0.8;
+}
+
+.portada h2 {
+    padding-left: 30px;
+    color: #f51f06;
+    opacity: 0.8;
+}
+
+#logo {
+    width: 120px;
+}
+
+#chapa {
+    width: fit-content;
+    border: 4px solid #f51f06;
+    border-radius: 5%;
+    background-color: #eee;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    z-index: 1;
+}
+
+/*Navbar*/
+nav a {
+    color: #f51f06;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.flex-nav {
+    background-color: #260600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    border-top: 4px solid #f51f06;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.current {
+    text-decoration: none;
+    color: #f5d544;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.home-flex h3,
+.about-flex h2 {
+    margin-bottom: 5px;
+}
+
+.home-flex p,
+.about-flex p,
+.contact-flex p {
+    margin-bottom: 20px;
+}
+
+/*Images*/
+#hockey-1,
+#hockey-2,
+#hockey-3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 6px solid #260600;
+    background-color: #260600;
+}
+
+#hockey-1 img,
+#hockey-2 img,
+#hockey-3 img {
+    width: 300px;
+}
+
+/*Flex box */
+.regis-main,
+.info-main,
+.rules-main,
+.home-main,
+.about-main,
+.contact-main {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.regis-flex,
+.info-flex,
+.rules-flex,
+.home-flex,
+.about-flex,
+.contact-flex {
+    width: 800px;
+    color: #260600;
+    background-color: #5198f5;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #260600;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-flex {
+    width: fit-content;
+    font-weight: bold;
+}
+
+/* .rules-flex{
+    width: 900px;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.info-flex{
+    margin-top: 0;
+    width: 900px;
+} */
+
+/*Titulos rules list y regist form*/
+#regis-title,
+#rules-title {
+    border: 2px solid #260600;
+    color: #260600;
+    background-color: #f51f06;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#rules-title h2 {
+    margin-bottom: 15px;
+}
+
+#rules-title h3 {
+    font-style: italic;
+}
+
+/*Lists*/
+.rules-list {
+    list-style: none inside;
+    padding: 20px;
+}
+
+.rules-list dt {
+    font-weight: bolder;
+}
+
+.letters {
+    list-style: lower-alpha inside;
+}
+
+.numbers {
+    list-style-position: inside;
+}
+
+li,
+dd {
+    line-height: 1.3em;
+    margin: 15px 0px;
+}
+
+.letters,
+.hole {
+    margin-left: 10px;
+}
+
+/* Game Info Table*/
+table {
+    background-color: #260600;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+caption {
+    padding: 5px;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.top {
+    font-size: 1.5em;
+}
+
+.heading,
+thead tr,
+tfoot tr {
+    background-color: #f51f06;
+}
+
+.yellow {
+    background-color: #f5d544;
+    text-align: center;
+}
+
+.blue {
+    background-color: #5198f5;
+    text-align: center;
+}
+
+.info-contact {
+    color: #260600;
+    font-size: 1.2em;
+}
+
+.info-contact p {
+    margin: 10px;
+}
+
+.table-foot-title {
+    font-weight: bold;
+}
+
+/*Game info maps*/
+#maps-title {
+    text-align: center;
+    background-color: #f51f06;
+    color: #260600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#green,
+#aj,
+#marge,
+#howard,
+#north,
+#south {
+    border: 3px solid #260600;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5198f5;
+    color: #260600;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Registration Form*/
+fieldset {
+    border: 3px solid #f51f06;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin: 15px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.names1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.names1>div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.names>div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+label {
+    padding: 5px;
+    color: #260600;
+    font-weight: bold;
+}
+
+legend {
+    background-color: #f51f06;
+    color: #260600;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.sign p {
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.form-button>button {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 3px solid #260600;
+    border-radius: 5px;
+    background-color: #f51f06;
+    color: #260600;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    border-top: 3px dotted #260600;
+    color: #260600;
+    margin-top: 20px;
+}
+
+footer p {
+    padding: 8px;
+}

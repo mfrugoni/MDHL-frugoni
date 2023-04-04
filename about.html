@@ -6,37 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About MDHL</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <header>
-        <img src="./img/Logo_Mighty_ducks-01.png" alt="">
-        <h1>Mighty Ducks Hockey League</h1>
+        <div id="chapa">
+            <img id="logo" src="./img/Logo_Mighty_ducks-01.png" alt="Logotipo de MDHL">
+        </div>
+        <div class="portada">
+            <h1>Mighty Ducks Hockey League</h1>
+            <h2>About MDHL</h2>
+        </div>
+
+        <nav class="flex-nav">
+            <a href="./index.html">Home</a>
+            <a href="#" class="current">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./rules.html">Rules of Play & Policies</a>
+            <a href="./game-info.html">Game Information</a>
+            <a href="./registration.html">Registration</a>
+        </nav>
     </header>
-    <nav>
-        <a href="./index.html">Home</a><span> | </span>
-        <a href="#" style="text-decoration: none;">About MDHL</a><span> | </span>
-        <a href="./contact.html">contact</a>
-    </nav>
-    <br>
-    <main>
-        <img src="./img/hockey_2.jpg" alt="Hockey action picture">
-        <section>
+
+    <main class="about-main">
+
+        <figure id="hockey-2">
+            <img src="./img/hockey_2.jpg" alt="Hockey action picture" title="One of our players">
+        </figure>
+
+        <section class="about-flex">
             <h2>Mision</h2>
             <p>
                 To support young athletes living Chicago's northside neighborhood, who have an interest in
                 learning and playing soccer, with opportunities to learn and practice skills related to the game of
                 hockey, specifically those skills around team cooperation and good sportsmanship
             </p>
-        </section>
-        <section>
+
             <h2>Vision</h2>
             <p>
                 The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
                 through the building of character, self-discipline, and leadership.
             </p>
-        </section>
-        <section>
+
             <h2>General Information</h2>
             <p>
                 The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
@@ -48,6 +61,11 @@
         </section>
 
     </main>
+    <footer>
+        <p>Made in Argentina by Miguel Frugoni . MMXXIII</p>
+        <p>All brands and trademarks in this web site are property of their respective owners.</p>
+    </footer>
+
 </body>
 
 </html>

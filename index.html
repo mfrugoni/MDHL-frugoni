@@ -6,37 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home MDHL</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <header>
-        <img src="./img/Logo_Mighty_ducks-01.png" alt="Hockey action picture">
-        <h1>Mighty Ducks Hockey League</h1>
+        <div id="chapa">
+            <img id="logo" src="./img/Logo_Mighty_ducks-01.png" alt="Logotipo de MDHL">
+        </div>
+        <div class="portada">
+            <h1>Mighty Ducks Hockey League</h1>
+            <h2>Upcoming events</h2>
+        </div>
+
+        <nav class="flex-nav">
+            <a href="#" class="current">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./rules.html">Rules of Play & Policies</a>
+            <a href="./game-info.html">Game Information</a>
+            <a href="./registration.html">Registration</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#" style="text-decoration: none;">Home</a><span> | </span>
-        <a href="./about.html">About MDHL</a><span> | </span>
-        <a href="./contact.html">contact</a>
-    </nav>
-    <br>
-    <main>
-        <img src="./img/hockey_1.jpg" alt="">
-        <h2>Upcoming Events</h2>
-        <ul>
-            <li>
-                <h3>August 4</h3>
-                MDHL Fundraiser.
-            </li>
-            <li>
-                <h3>August 16</h3>
-                Season kick-off: Meet the Teams.
-            </li>
-            <li>
-                <h3>September 1</h3>
-                First Game of the Season (Check Game Schedule for details)
-            </li>
-        </ul>
+
+    <main class="home-main">
+
+        <figure id="hockey-1">
+            <img src="./img/hockey_1.jpg" alt="Hockey action photo" title="Hockey action photo">
+        </figure>
+
+        <section class="home-flex">
+            <h3>August 4</h3>
+            <p>MDHL Fundraiser.</p>
+
+            <h3>August 16</h3>
+            <p>Season kick-off: Meet the Teams.</p>
+
+            <h3>September 1</h3>
+            <p>First Game of the Season (Check <a href="./game-info.html" title="Go to schedule">Game Schedule</a> for
+                details)</p>
+        </section>
+
     </main>
+
+    <footer>
+        <p>Made in Argentina by Miguel Frugoni . MMXXIII</p>
+        <p>All brands and trademarks in this web site are property of their respective owners.</p>
+    </footer>
 
 </body>
 
